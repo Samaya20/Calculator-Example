@@ -28,14 +28,12 @@
   font-weight: 500;
   font-style: normal;
   color: var(--text-color);
-  font-size: 22px;
+  font-size: 20px;
   transition: all 0.3s;
 }
 
 body {
   width: 100vw;
-  height: 80vh;
-  overflow: hidden;
 }
 
 .calculator {
@@ -48,8 +46,8 @@ body {
 }
 .calculator .calculator-wrapper {
   background: var(--main-bg);
-  width: 28%;
-  padding: 50px 25px;
+  width: 26%;
+  padding: 27px 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -87,7 +85,7 @@ body {
 .calculator .calculator-wrapper .input-wrapper input {
   width: 100%;
   margin: 5px 0px;
-  padding: 10px 30px;
+  padding: 5px 30px;
   text-align: end;
   background: none;
   border: none;
@@ -103,11 +101,11 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 20px;
 }
 .calculator .calculator-wrapper #keys button {
   border: none;
-  padding: 35px;
+  padding: 30px;
   background: transparent;
   border-radius: 50%;
   display: flex;
